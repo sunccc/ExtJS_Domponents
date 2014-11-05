@@ -1,0 +1,1 @@
+Ext.onReady(function() {			Ext.create('Ext.Window', {						title : 'Window组件',						width : '100%',						height : '100%',						plain : true,						headerPosition : 'top',						layout : 'fit',						renderTo : Ext.getBody(),						border : false,						items : {						}					}).show();		})
